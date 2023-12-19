@@ -1,0 +1,6 @@
+net start mosquitto
+
+
+
+//for checking ip address
+netstat -a
