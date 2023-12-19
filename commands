@@ -4,3 +4,17 @@ net start mosquitto
 
 //for checking ip address
 netstat -a
+
+
+
+//Subscriber
+mosquitto_sub -t testing -h localhost
+
+
+
+
+//Publisher 
+mosquitto_pub -t testing -h localhost -m "SendingData:100"
+
+
+
